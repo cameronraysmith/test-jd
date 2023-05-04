@@ -30,3 +30,25 @@ This will start a production server on port `3000`.
 - `DATABASE_URL`=file:./db.sqlite  
   
 [Sponsor Create JD App](https://github.com/sponsors/OrJDev)
+
+## Running tests
+
+See [solid-start/examples/with-vitest](https://github.com/solidjs/solid-start/tree/main/examples/with-vitest).
+
+To run tests once
+
+```bash
+pnpm test
+```
+
+or, to watch for source changes and rerun
+
+```bash
+pnpm test-watch
+```
+
+or, to use the ui
+
+```bash
+pnpm test-ui
+```

@@ -8,10 +8,11 @@
     "moduleResolution": "node",
     "jsxImportSource": "solid-js",
     "jsx": "preserve",
-    "types": ["solid-start/env"],
+    "types": ["solid-start/env", "@testing-library/jest-dom"],
     "baseUrl": "./",
     "paths": {
       "~/*": ["./src/*"]
     }
-  }
+  },
+  "types": ["vitest"]
 }
